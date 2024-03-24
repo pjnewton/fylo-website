@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ficon:hover {
+  filter: brightness(0) saturate(100%) invert(82%) sepia(58%) saturate(378%)
+    hue-rotate(113deg) brightness(93%) contrast(90%);
+}
+
+a:hover {
+  color: #65e2d9;
+}
